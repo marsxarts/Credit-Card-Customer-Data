@@ -36,7 +36,6 @@ Key exploration steps:
 - Distribution of churned vs. retained customers
 - Correlation analysis of usage patterns
 - Feature distributions: credit limits, call volume, visit types
-  **more charts avaliable at Customer_Credit_Card_Data.ipynb
 
 ---
 
@@ -77,6 +76,9 @@ Key exploration steps:
 The PCA plot below illustrates distinct groupings of customer behavior after applying K-Means clustering. Each cluster reflects unique engagement profiles, used to inform the personas outlined in the business strategy.
 
 ![PCA Clusters](pca.png)
+## View more charts in my Notebook
+[Click here to open the notebook](Credit_Card_Customer_Data.ipynb)
+
 
 **Identified Segments**:
 1. **Dormant Users**  
