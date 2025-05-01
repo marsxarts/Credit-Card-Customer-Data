@@ -1,7 +1,7 @@
 # 💳 Credit Card Customer Analysis & Churn Prediction
 
 ## 📌 Problem Statement
-This project aims to analyze customer behavior and predict churn using historical credit card usage data. Insights will support retention strategies and product improvements for the POS sysytem. Customer retention is critical. This project explores credit card usage data to identify patterns in customer behavior and predict the likelihood of churn. By understanding which customers are most at risk of leaving, businesses can take proactive measures to improve satisfaction, loyalty, and profitability.
+This project aims to analyze customer behavior and predict churn using historical credit card usage data. Insights will support retention strategies and product improvements for my clients POS sysytem. Customer retention is critical. This project explores credit card usage data to identify patterns in customer behavior and predict the likelihood of churn. By understanding which customers are most at risk of leaving, businesses can take proactive measures to improve satisfaction, loyalty, and profitability.
 
 ## Dataset
 - **Source**: [Kaggle Dataset](https://www.kaggle.com/datasets/aryashah2k/credit-card-customer-data/data)
