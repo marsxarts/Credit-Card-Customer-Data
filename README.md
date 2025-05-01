@@ -36,7 +36,7 @@ Key exploration steps:
 - Distribution of churned vs. retained customers
 - Correlation analysis of usage patterns
 - Feature distributions: credit limits, call volume, visit types
-  more charts avaliable at 
+  **more charts avaliable at Customer_Credit_Card_Data.ipynb
 
 ---
 
