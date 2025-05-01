@@ -69,7 +69,7 @@ Visuals available in the `/visuals/` directory.
 **PCA Cluster Visualization**  
 The PCA plot below illustrates distinct groupings of customer behavior after applying K-Means clustering. Each cluster reflects unique engagement profiles, used to inform the personas outlined in the business strategy.
 
-![PCA Clusters](visuals/pca.png)
+![PCA Clusters](pca.png)
 
 **Identified Segments**:
 1. **Dormant Users**  
