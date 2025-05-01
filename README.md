@@ -19,6 +19,14 @@ This project aims to analyze customer behavior and predict churn using historica
 - Identify top behavioral drivers of churn
 - Segment users by behavior using clustering
 - Deliver actionable insights and business recommendations
+  
+---
+
+## Tools & Technologies
+
+- Python, Pandas, NumPy, Seaborn, Scikit-learn, PCA, KMeans  
+- Google Colab  
+- Visualizations in Matplotlib & Seaborn
 
 ---
 
@@ -28,8 +36,7 @@ Key exploration steps:
 - Distribution of churned vs. retained customers
 - Correlation analysis of usage patterns
 - Feature distributions: credit limits, call volume, visit types
-
-Visuals available in the `/visuals/` directory.
+  more charts avaliable at 
 
 ---
 
@@ -102,14 +109,6 @@ The PCA plot below illustrates distinct groupings of customer behavior after app
 - Reduce support costs through digital self-service initiatives  
 - Tailor marketing for higher engagement + ROI  
 - Unlock strategic personas from raw behavior data
-
----
-
-## Tools & Technologies
-
-- Python, Pandas, NumPy, Seaborn, Scikit-learn, PCA, KMeans  
-- Google Colab  
-- Visualizations in Matplotlib & Seaborn
 
 ---
 
