@@ -1,8 +1,7 @@
 # 💳 Credit Card Customer Analysis & Churn Prediction
 
 ## 📌 Problem Statement
-This project aims to analyze customer behavior and predict churn using historical credit card usage data. Insights will support retention strategies and product improvements for my clients POS sysytem. Customer retention is critical. This project explores credit card usage data to identify patterns in customer behavior and predict the likelihood of churn. By understanding which customers are most at risk of leaving, businesses can take proactive measures to improve satisfaction, loyalty, and profitability.
-
+This project aims to analyze customer behavior and predict churn using historical credit card usage data. Insights will support retention strategies and product improvements for my clients POS sysytem for customer retention, helping identify at-risk users early, and boost long-term engagement.
 ---
 
 ## Dataset Overview
@@ -13,104 +12,59 @@ This project aims to analyze customer behavior and predict churn using historica
 
 ---
 
-## Project Objectives
+## Project Goals
 
-- Predict customer churn using classification models
-- Identify top behavioral drivers of churn
-- Segment users by behavior using clustering
-- Deliver actionable insights and business recommendations
-  
+- Identify natural clusters in customer behavior using K-Means
+- Use PCA for cluster visualization
+- Profile each segment to inform strategic business recommendations
+
+---
+
+## Dataset Overview
+
+- **Source**: Simulated data (based on anonymized banking behaviors)
+- **Observations**: ~10,000 customers
+- **Features Used**:
+  - Average Credit Limit
+  - Total Credit Cards
+  - Bank Visit Frequency
+  - Online Interaction Frequency
+  - Call Center Usage
+
 ---
 
 ## Tools & Technologies
 
-- Python, Pandas, NumPy, Seaborn, Scikit-learn, PCA, KMeans  
-- Google Colab  
-- Visualizations in Matplotlib & Seaborn
+- **Python**: `pandas`, `numpy`, `seaborn`, `matplotlib`, `scikit-learn`
+- **Modeling**: KMeans Clustering, PCA
+- **Notebook**: [📓 View the notebook](./Cleaned_Customer_Segmentation_Notebook.ipynb)
 
 ---
 
-## Exploratory Data Analysis (EDA)
+## Workflow Summary
 
-Key exploration steps:
-- Distribution of churned vs. retained customers
-- Correlation analysis of usage patterns
-- Feature distributions: credit limits, call volume, visit types
-
----
-
-## Churn Prediction Modeling
-
-**Models Used**:  
-- Logistic Regression  
-- Random Forest  
-
-**Evaluation Metrics**:
-| Model             | Accuracy | Precision | Recall | AUC Score |
-|------------------|----------|-----------|--------|-----------|
-| Logistic Regression | 85%   | 82%       | 80%    | 0.89      |
-| Random Forest       | 88%   | 85%       | 83%    | 0.92      |
-
-**Key Drivers of Churn**:
-- Low tenure
-- Fewer transactions
-- Lower credit engagement
-- Certain card types and income segments
+1. **Data Cleaning** – Removed identifiers and duplicates
+2. **EDA** – Visualized distributions and correlations
+3. **Feature Standardization** – Prepared data for clustering
+4. **Elbow Method** – Determined optimal clusters (k=3)
+5. **KMeans Clustering** – Assigned cluster labels
+6. **PCA Visualization** – Reduced to 2D for visual clarity
+7. **Segment Profiling** – Interpreted business behaviors in each group
 
 ---
 
-## Customer Segmentation (K-Means Clustering)
+## Customer Segments Identified
 
-**Features Used**:
-- `Avg_Credit_Limit`  
-- `Total_Credit_Cards`  
-- `Total_visits_bank`  
-- `Total_visits_online`  
-- `Total_calls_made`
-
-**Technique**:  
-- K-Means clustering with PCA for 2D visualization
--  Standardized inputs for modeling
--  
-**PCA Cluster Visualization**  
-The PCA plot below illustrates distinct groupings of customer behavior after applying K-Means clustering. Each cluster reflects unique engagement profiles, used to inform the personas outlined in the business strategy.
-
-![PCA Clusters](pca.png)
-## View more charts in my Notebook
-[Click here to open the notebook](Customer_Credit_Card_Data.ipynb)
-
-
-**Identified Segments**:
-1. **Dormant Users**  
-   - Low activity across all channels  
-   - Strategy: Onboarding nudges + reactivation incentives
-
-2. **Digital Enthusiasts**  
-   - High credit usage + online engagement  
-   - Strategy: Reward loyalty, upsell premium features
-
-3. **Support-Reliant Traditionalists**  
-   - High call volume, low online use  
-   - Strategy: Guide toward digital self-service + education
-
----
-
-## Business Recommendations
-
-| Customer Segment            | Recommendation                                |
-|----------------------------|-----------------------------------------------|
-| Dormant Users              | Re-engagement incentives, personalized outreach |
-| Digital Enthusiasts        | Loyalty program, exclusive offers             |
-| Support-Reliant Customers  | Chatbot tools, digital migration training     |
+| Cluster | Description              | Strategy                                |
+|---------|--------------------------|------------------------------------------|
+| 0       | Dormant Users            | Re-engage with incentives or outreach   |
+| 1       | Digital Enthusiasts      | Upsell through loyalty programs         |
+| 2       | Support-Reliant Users    | Promote digital tools, reduce support load |
 
 ---
 
 ## Business Impact
 
-- Increase retention by targeting churn-prone groups  
-- Reduce support costs through digital self-service initiatives  
-- Tailor marketing for higher engagement + ROI  
-- Unlock strategic personas from raw behavior data
-
----
-
+-  Personalized retention strategies
+- Reduced operational costs by nudging support-heavy users to digital
+-  Improved marketing ROI through persona-driven targeting
