@@ -64,7 +64,12 @@ Visuals available in the `/visuals/` directory.
 
 **Technique**:  
 - K-Means clustering with PCA for 2D visualization
--  Standardized inputs for modeling   
+-  Standardized inputs for modeling
+-  
+**PCA Cluster Visualization**  
+The PCA plot below illustrates distinct groupings of customer behavior after applying K-Means clustering. Each cluster reflects unique engagement profiles, used to inform the personas outlined in the business strategy.
+
+![PCA Clusters](visuals/pca.png)
 
 **Identified Segments**:
 1. **Dormant Users**  
