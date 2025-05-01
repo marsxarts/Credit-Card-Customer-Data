@@ -17,7 +17,6 @@ This project aims to analyze customer behavior and predict churn using historica
 ## Tools & Technologies
 - **Python**: pandas, numpy, seaborn, matplotlib, scikit-learn
 - **Notebook**: Jupyter
-- **Optional**: Tableau or Power BI for advanced dashboarding
 
 ## Exploratory Analysis
 - Distribution of churned vs. retained customers
