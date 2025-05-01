@@ -53,6 +53,20 @@ This project aims to analyze customer behavior and predict churn using historica
 
 ---
 
+## Choosing Optimal Clusters (Elbow Method)
+
+We used the Elbow Method to determine the ideal number of clusters. The graph below indicates that **k=3** is the most efficient choice:
+
+![Elbow Method](elbow.png)
+
+## PCA Cluster Visualization
+
+To visually validate our customer segmentation, PCA (Principal Component Analysis) was used to reduce the dimensionality of the dataset. This scatter plot shows clear separation between the three identified clusters:
+
+![PCA Clusters](pca.png)
+
+
+---
 ## Customer Segments Identified
 
 | Cluster | Description              | Strategy                                |
