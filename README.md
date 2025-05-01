@@ -77,7 +77,7 @@ The PCA plot below illustrates distinct groupings of customer behavior after app
 
 ![PCA Clusters](pca.png)
 ## View more charts in my Notebook
-[Click here to open the notebook](Credit_Card_Customer_Data.ipynb)
+[Click here to open the notebook](Customer_Credit_Card_Data.ipynb)
 
 
 **Identified Segments**:
