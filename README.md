@@ -53,7 +53,7 @@ Visuals available in the `/visuals/` directory.
 
 ---
 
-## 🧩 Customer Segmentation (K-Means Clustering)
+## Customer Segmentation (K-Means Clustering)
 
 **Features Used**:
 - `Avg_Credit_Limit`  
@@ -63,9 +63,8 @@ Visuals available in the `/visuals/` directory.
 - `Total_calls_made`
 
 **Technique**:  
-- K-Means clustering with PCA for 2D visualization  
-- Standardized inputs for modeling  
-- Visual output in `visuals/pca_clusters.png`
+- K-Means clustering with PCA for 2D visualization
+-  Standardized inputs for modeling   
 
 **Identified Segments**:
 1. **Dormant Users**  
